@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border: 2px solid #334155;
+  width: 100%;
+  background-color: #1f1f2f;
+  border-radius: 5px;
+  align-items: center;
+}
+.country-name-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.is-visited-button {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.visited-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cbd5e1;
+  margin-right: 30px;
+}
