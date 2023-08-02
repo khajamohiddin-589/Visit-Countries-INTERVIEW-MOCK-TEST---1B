@@ -10,7 +10,7 @@ const CountryItem = props => {
 
   return (
     <li className="item">
-      <h1 className="country-name-heading">{name}</h1>
+      <p className="country-name-heading">{name}</p>
       {!isVisited ? (
         <button
           onClick={onClickVisitButton}

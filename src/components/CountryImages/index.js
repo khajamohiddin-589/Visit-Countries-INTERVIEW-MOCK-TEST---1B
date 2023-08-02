@@ -10,9 +10,13 @@ const CountryImages = props => {
 
   return (
     <li className="image-list-item">
-      <img className="countries-image-list-item" src={imageUrl} alt={name} />
+      <img
+        className="countries-image-list-item"
+        src={imageUrl}
+        alt="thumbnail"
+      />
       <div className="bottom-line">
-        <h1 className="country-img-heading">{name}</h1>
+        <p className="country-img-heading">{name}</p>
         <button onClick={onClickRemove} type="button" className="remove-button">
           Remove
         </button>
